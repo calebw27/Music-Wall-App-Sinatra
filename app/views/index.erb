@@ -1,1 +1,39 @@
-<h1>Home Page</h1>
+<div class="container">
+<h1>Music Wall</h1>
+
+<form method="post" action="/songs">
+
+<table width="450px">
+</tr>
+<tr>
+ <td "top">
+  <label for="title">Song Title *</label>
+ </td>
+ <td ="top">
+  <input  type="text" name="title" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td "top">
+  <label for="author">Author *</label>
+ </td>
+ <td "top">
+  <input  type="text" name="author" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td "top">
+  <label for="url">URL *</label>
+ </td>
+ <td "top">
+  <input  type="text" name="url" maxlength="1000" size="30">
+ </td>
+
+<tr>
+  <td colspan="2" style="text-align:center">
+  <button type="button" class="bg-info"><input type="submit" value="Submit"></button>
+</tr>
+</table>
+</form>
+</div>
