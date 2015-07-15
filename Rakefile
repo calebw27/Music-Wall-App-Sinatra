@@ -15,7 +15,6 @@ desc "drop the database"
 task "db:drop" do
   rm_f 'db/db.sqlite3'
 end
-
 task 'db:create_migration' do
   unless ENV["NAME"]
     puts "No NAME specified. Example usage: `rake db:create_migration NAME=create_users`"
